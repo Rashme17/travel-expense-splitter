@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { AlertCircle, DollarSign, Send, Plus, Trash2, Users, CreditCard, Calendar, User } from 'lucide-react';
+import { AlertCircle, DollarSign, Send, Plus, Trash2, Users, CreditCard, Calendar, User, IndianRupee } from 'lucide-react';
 import './App.css';
 
 // Main App Component
@@ -154,7 +154,7 @@ function App() {
           <TabButton 
             active={activeTab === 'summary'} 
             onClick={() => setActiveTab('summary')}
-            icon={<DollarSign size={16} />}
+            icon={<IndianRupee size={16} />}
             label="Summary"
           />
         </div>
